@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Card from "./Card";
+import CardList from "./CardList";
 
 //Component to rep a single card
 //Another component to rep a list
@@ -10,7 +10,8 @@ class App extends React.Component {
     return (
       <div className="header">
         <h1>The Github Cards App</h1>
-        <Card />
+        <Form />
+        <CardList />
       </div>
     );
   }
