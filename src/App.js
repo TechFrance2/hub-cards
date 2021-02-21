@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Form from "./Form";
 import CardList from "./CardList";
 
 //Component to rep a single card
