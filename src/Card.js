@@ -5,7 +5,7 @@ class Card extends React.Component {
     const profile = this.props;
     return (
       <div className="github-profile" style={{ margin: "1rem" }}>
-        <img src={profile.avatar_url} style={{ width: "150px" }} />
+        <img src={profile.avatar_url} style={{ width: "150px" }} alt="" />
         <div
           className="info"
           style={{ display: "inline-block", marginLeft: 10 }}
