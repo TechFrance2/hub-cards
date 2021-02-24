@@ -7,28 +7,26 @@
 
 .github-profile {
   margin: 1rem;
-  img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  }
-  .info {
-    display: inline-block;
-    margin-left: 12px;
-    .name {
-      font-size: 20rem;
-      font-weight: bold;
-    }
-  }
+  border: 2px solid rgb(29, 27, 27);
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.info {
+  display: inline-block;
+  margin-left: 12px;
+}
+.name {
+  font-size: 20rem;
+  font-weight: bold;
 }
 
 form {
   border: thin solid #ddd;
-  background-color: #fbfbfb;
+  background-color: #68b7eb;
   padding: 5rem;
   margin-bottom: 2rem;
-  display: 2rem;
+  display: 4rem;
   justify-content: center;
 }
 
